@@ -24,7 +24,7 @@
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="text-2xl font-black text-blue-950 tracking-wider">NORDIC<span class="text-blue-600">AUTO</span></a>
             <nav class="hidden md:flex gap-8 font-medium text-slate-600">
-                <a href="#stock" class="hover:text-blue-600 transition">Coches en Stock</a>
+                <a href="#stock" class="hover:text-blue-600 transition">Coches Destacados</a>
                 <a href="#proceso" class="hover:text-blue-600 transition">Servicio a la Carta</a>
                 <a href="#contacto" class="hover:text-blue-600 transition">Contacto</a>
             </nav>
@@ -48,7 +48,7 @@
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center pt-6">
                 <a href="#stock" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold shadow-lg shadow-blue-600/30 transition">
-                    Ver Disponibles
+                    Ver Oportunidades
                 </a>
                 <a href="#proceso" class="bg-slate-800/60 hover:bg-slate-700 text-white border border-slate-700 px-8 py-4 rounded-xl font-semibold transition">
                     ¿Cómo funciona?
@@ -61,7 +61,7 @@
     <section id="proceso" class="py-24 px-6 max-w-7xl mx-auto">
         <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
             <h2 class="text-4xl font-bold text-slate-900">Importación a la carta</h2>
-            <p class="text-lg text-slate-600">Si no tenemos el coche que buscas en stock, te lo traemos de Alemania en 3 sencillos pasos.</p>
+            <p class="text-lg text-slate-600">Buscamos y traemos cualquier modelo del mercado alemán en 3 sencillos pasos.</p>
         </div>
 
         <div class="grid md:grid-cols-3 gap-8">
@@ -83,137 +83,171 @@
         </div>
     </section>
 
-    <!-- COCHES EN STOCK -->
+    <!-- COCHES EN STOCK / SELECCIONADOS -->
     <section id="stock" class="py-24 bg-slate-100 px-6">
         <div class="max-w-7xl mx-auto">
             <div class="mb-16">
-                <h2 class="text-4xl font-bold text-slate-900">Coches en Stock</h2>
-                <p class="text-lg text-slate-600 mt-3">Unidades revisadas y disponibles para importación inmediata.</p>
+                <h2 class="text-4xl font-bold text-slate-900">Unidades Destacadas en Alemania</h2>
+                <p class="text-lg text-slate-600 mt-3">Vehículos seleccionados listos para importación inmediata a Tolosa.</p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- COCHE 1: VW POLO -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-xl transition">
-                    <div class="h-48 bg-slate-200 relative">
-                        <span class="absolute top-4 left-4 bg-emerald-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">En Stock</span>
-                        <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=600&q=80" alt="Volkswagen Polo" class="w-full h-full object-cover">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- COCHE 1: MERCEDES C220d -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-xl transition flex flex-col">
+                    <div class="h-52 bg-slate-200 relative">
+                        <span class="absolute top-4 left-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">AMG Line</span>
+                        <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=600&q=80" alt="Mercedes C220d AMG Line" class="w-full h-full object-cover">
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-slate-900">Volkswagen Polo</h3>
-                        <p class="text-slate-500 text-sm mb-4">1.0 TSI Highline Automático</p>
-                        
-                        <div class="grid grid-cols-2 gap-3 text-sm text-slate-600 bg-slate-50 p-3 rounded-lg mb-6">
-                            <div class="flex items-center gap-1">
-                                <span>📅</span>
-                                <div><strong>Año:</strong> 2018</div>
-                            </div>
-                            <div class="flex items-center gap-1">
-                                <span>🛣️</span>
-                                <div><strong>Km:</strong> 121.810</div>
-                            </div>
-                            <div class="flex items-center gap-1">
-                                <span>⛽</span>
-                                <div><strong>Motor:</strong> Gasolina</div>
-                            </div>
-                            <div class="flex items-center gap-1">
-                                <span>⚙️</span>
-                                <div><strong>Caja:</strong> Automático</div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">Mercedes-Benz C 220d</h3>
+                            <p class="text-slate-500 text-sm mb-4">Estate T-Modell AMG-Line (170 CV)</p>
+                            
+                            <div class="grid grid-cols-2 gap-3 text-sm text-slate-600 bg-slate-50 p-3 rounded-lg mb-6">
+                                <div>📅 <strong>Año:</strong> 2018</div>
+                                <div>🛣️ <strong>Km:</strong> 114.772</div>
+                                <div>⛽ <strong>Motor:</strong> Diésel</div>
+                                <div>⚙️ <strong>Potencia:</strong> 170 CV</div>
                             </div>
                         </div>
 
-                        <div class="flex items-center justify-between">
+                        <div class="flex items-center justify-between border-t border-slate-100 pt-4">
                             <div>
-                                <span class="text-xs text-slate-400 block font-semibold">PRECIO</span>
-                                <span class="text-2xl font-bold text-slate-900">Consultar</span>
+                                <span class="text-xs text-slate-400 block font-semibold">PRECIO ORIGEN</span>
+                                <span class="text-2xl font-bold text-slate-900">18.950 €</span>
                             </div>
                             <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
-                                Consultar
+                                Consultar Llave en Mano
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- COCHE 2: BMW SERIE 3 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-xl transition">
-                    <div class="h-48 bg-slate-200 relative">
-                        <span class="absolute top-4 left-4 bg-emerald-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">En Stock</span>
-                        <img src="https://images.unsplash.com/photo-1552820728-8ac41f1ce891?auto=format&fit=crop&w=600&q=80" alt="BMW Serie 3" class="w-full h-full object-cover">
+                <!-- COCHE 2: BMW 120d xDrive -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-xl transition flex flex-col">
+                    <div class="h-52 bg-slate-200 relative">
+                        <span class="absolute top-4 left-4 bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">xDrive (4x4)</span>
+                        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80" alt="BMW 120d xDrive" class="w-full h-full object-cover">
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-slate-900">BMW Serie 3 Touring</h3>
-                        <p class="text-slate-500 text-sm mb-4">320d xDrive Diésel</p>
-                        
-                        <div class="grid grid-cols-2 gap-3 text-sm text-slate-600 bg-slate-50 p-3 rounded-lg mb-6">
-                            <div class="flex items-center gap-1">
-                                <span>📅</span>
-                                <div><strong>Año:</strong> 2019</div>
-                            </div>
-                            <div class="flex items-center gap-1">
-                                <span>🛣️</span>
-                                <div><strong>Km:</strong> 95.400</div>
-                            </div>
-                            <div class="flex items-center gap-1">
-                                <span>⛽</span>
-                                <div><strong>Motor:</strong> Diésel</div>
-                            </div>
-                            <div class="flex items-center gap-1">
-                                <span>⚙️</span>
-                                <div><strong>Caja:</strong> Automático</div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">BMW 120d xDrive</h3>
+                            <p class="text-slate-500 text-sm mb-4">Sport Line Tracción 4x4 (190 CV)</p>
+                            
+                            <div class="grid grid-cols-2 gap-3 text-sm text-slate-600 bg-slate-50 p-3 rounded-lg mb-6">
+                                <div>📅 <strong>Año:</strong> 2020</div>
+                                <div>🛣️ <strong>Km:</strong> 144.626</div>
+                                <div>⛽ <strong>Motor:</strong> Diésel</div>
+                                <div>⚙️ <strong>Caja:</strong> Automático</div>
                             </div>
                         </div>
 
-                        <div class="flex items-center justify-between">
+                        <div class="flex items-center justify-between border-t border-slate-100 pt-4">
                             <div>
-                                <span class="text-xs text-slate-400 block font-semibold">PRECIO</span>
-                                <span class="text-2xl font-bold text-slate-900">Consultar</span>
+                                <span class="text-xs text-slate-400 block font-semibold">PRECIO ORIGEN</span>
+                                <span class="text-2xl font-bold text-slate-900">18.950 €</span>
                             </div>
                             <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
-                                Consultar
+                                Consultar Llave en Mano
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- COCHE 3: AUDI A4 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-xl transition">
-                    <div class="h-48 bg-slate-200 relative">
-                        <span class="absolute top-4 left-4 bg-emerald-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">En Stock</span>
-                        <img src="https://images.unsplash.com/photo-1606611013016-969c19d24e71?auto=format&fit=crop&w=600&q=80" alt="Audi A4" class="w-full h-full object-cover">
+                <!-- COCHE 3: TOYOTA COROLLA HYBRID -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-xl transition flex flex-col">
+                    <div class="h-52 bg-slate-200 relative">
+                        <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Etiqueta ECO</span>
+                        <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=600&q=80" alt="Toyota Corolla Touring Hybrid" class="w-full h-full object-cover">
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-slate-900">Audi A4 Avant</h3>
-                        <p class="text-slate-500 text-sm mb-4">2.0 TDI Quattro</p>
-                        
-                        <div class="grid grid-cols-2 gap-3 text-sm text-slate-600 bg-slate-50 p-3 rounded-lg mb-6">
-                            <div class="flex items-center gap-1">
-                                <span>📅</span>
-                                <div><strong>Año:</strong> 2020</div>
-                            </div>
-                            <div class="flex items-center gap-1">
-                                <span>🛣️</span>
-                                <div><strong>Km:</strong> 78.200</div>
-                            </div>
-                            <div class="flex items-center gap-1">
-                                <span>⛽</span>
-                                <div><strong>Motor:</strong> Diésel</div>
-                            </div>
-                            <div class="flex items-center gap-1">
-                                <span>⚙️</span>
-                                <div><strong>Caja:</strong> Automático</div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">Toyota Corolla Touring</h3>
+                            <p class="text-slate-500 text-sm mb-4">Sports Hybrid Business Edition</p>
+                            
+                            <div class="grid grid-cols-2 gap-3 text-sm text-slate-600 bg-slate-50 p-3 rounded-lg mb-6">
+                                <div>📅 <strong>Año:</strong> 2021</div>
+                                <div>🛣️ <strong>Km:</strong> 57.948</div>
+                                <div>⚡ <strong>Motor:</strong> Híbrido</div>
+                                <div>📜 <strong>IVA:</strong> Deducible</div>
                             </div>
                         </div>
 
-                        <div class="flex items-center justify-between">
+                        <div class="flex items-center justify-between border-t border-slate-100 pt-4">
                             <div>
-                                <span class="text-xs text-slate-400 block font-semibold">PRECIO</span>
-                                <span class="text-2xl font-bold text-slate-900">Consultar</span>
+                                <span class="text-xs text-slate-400 block font-semibold">PRECIO ORIGEN</span>
+                                <span class="text-2xl font-bold text-slate-900">16.950 €</span>
                             </div>
                             <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
-                                Consultar
+                                Consultar Llave en Mano
                             </a>
                         </div>
                     </div>
                 </div>
+
+                <!-- COCHE 4: AUDI A3 SPORTBACK -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-xl transition flex flex-col">
+                    <div class="h-52 bg-slate-200 relative">
+                        <span class="absolute top-4 left-4 bg-slate-800 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Bi-Xenon</span>
+                        <img src="https://images.unsplash.com/photo-1606611013016-969c19d24e71?auto=format&fit=crop&w=600&q=80" alt="Audi A3 Sportback" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">Audi A3 Sportback</h3>
+                            <p class="text-slate-500 text-sm mb-4">35 TFSI Sport (150 CV)</p>
+                            
+                            <div class="grid grid-cols-2 gap-3 text-sm text-slate-600 bg-slate-50 p-3 rounded-lg mb-6">
+                                <div>📅 <strong>Año:</strong> 2019</div>
+                                <div>🛣️ <strong>Km:</strong> 93.098</div>
+                                <div>⛽ <strong>Motor:</strong> Gasolina</div>
+                                <div>⚙️ <strong>Potencia:</strong> 150 CV</div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center justify-between border-t border-slate-100 pt-4">
+                            <div>
+                                <span class="text-xs text-slate-400 block font-semibold">PRECIO ORIGEN</span>
+                                <span class="text-2xl font-bold text-slate-900">17.499 €</span>
+                            </div>
+                            <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
+                                Consultar Llave en Mano
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COCHE 5: OPEL GRANDLAND PHEV -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-xl transition flex flex-col">
+                    <div class="h-52 bg-slate-200 relative">
+                        <span class="absolute top-4 left-4 bg-cyan-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Etiqueta CERO</span>
+                        <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80" alt="Opel Grandland Plug-in Hybrid" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">Opel Grandland GS Line</h3>
+                            <p class="text-slate-500 text-sm mb-4">Plug-in-Hybrid Enchufable (181 CV)</p>
+                            
+                            <div class="grid grid-cols-2 gap-3 text-sm text-slate-600 bg-slate-50 p-3 rounded-lg mb-6">
+                                <div>📅 <strong>Año:</strong> 2022</div>
+                                <div>🛣️ <strong>Km:</strong> 36.300</div>
+                                <div>🔌 <strong>Motor:</strong> Híbrido PHEV</div>
+                                <div>⚙️ <strong>Potencia:</strong> 181 CV</div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center justify-between border-t border-slate-100 pt-4">
+                            <div>
+                                <span class="text-xs text-slate-400 block font-semibold">PRECIO ORIGEN</span>
+                                <span class="text-2xl font-bold text-slate-900">19.950 €</span>
+                            </div>
+                            <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
+                                Consultar Llave en Mano
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -259,8 +293,8 @@
     <!-- CONTACTO -->
     <section id="contacto" class="py-24 px-6 max-w-4xl mx-auto">
         <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold mb-4">¿Buscas un coche específico?</h2>
-            <p class="text-lg text-slate-600">Cuéntanos qué modelo quieres traer y te haremos un presupuesto personalizado sin compromiso.</p>
+            <h2 class="text-4xl font-bold mb-4">¿Te interesa uno de estos o buscas otro modelo?</h2>
+            <p class="text-lg text-slate-600">Escríbenos y te daremos presupuesto cerrado con transporte e impuestos incluidos.</p>
         </div>
 
         <div class="bg-white p-10 rounded-3xl border border-slate-200 shadow-xl">
@@ -279,10 +313,10 @@
                 </div>
                 <div>
                     <label class="block text-sm font-semibold text-slate-700 mb-2">¿Qué coche buscas?</label>
-                    <textarea name="mensaje" rows="4" placeholder="Ej: BMW Serie 3 Touring diésel, año 2021, menos de 80.000km..." required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:outline-none"></textarea>
+                    <textarea name="mensaje" rows="4" placeholder="Ej: Me interesa el Mercedes C 220d o busco un BMW Serie 3..." required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:outline-none"></textarea>
                 </div>
                 <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition shadow-lg shadow-blue-500/20">
-                    Solicitar Presupuesto
+                    Solicitar Presupuesto Gratuito
                 </button>
             </form>
         </div>
